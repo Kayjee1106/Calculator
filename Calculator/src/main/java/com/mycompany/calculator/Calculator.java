@@ -5,10 +5,8 @@ public class Calculator extends javax.swing.JFrame {
     public Calculator() {
         initComponents();
     }
-    @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
-    private void initComponents() {
 
+    private void initComponents() {
         jPanel1 = new javax.swing.JPanel();
         jColorChooser1 = new javax.swing.JColorChooser();
         jButton1 = new javax.swing.JButton();
@@ -72,7 +70,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
 
-        ans.setFont(new java.awt.Font("Times New Roman", 0, 12)); // NOI18N
+        ans.setFont(new java.awt.Font("Times New Roman", 0, 12));
         ans.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ansActionPerformed(evt);
@@ -235,147 +233,143 @@ public class Calculator extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-s=ans.getText();
-s=s+"1";
-        ans.setText(s);        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton1ActionPerformed
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        s=ans.getText();
+        s=s+"1";
+        ans.setText(s);
+    }                                        
 
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-s=ans.getText();
-s=s+"2";
-        ans.setText(s);        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton5ActionPerformed
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        s=ans.getText();
+        s=s+"2";
+        ans.setText(s);
+    }                                        
 
-    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
-s=ans.getText();
-s=s+"3";
-        ans.setText(s);        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton9ActionPerformed
+    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        s=ans.getText();
+        s=s+"3";
+        ans.setText(s);
+    }                                        
 
-    private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
-s=ans.getText();
-s=s+"+";
-        ans.setText(s);        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton13ActionPerformed
+    private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {                                          
+        s=ans.getText();
+        s=s+"+";
+        ans.setText(s);
+    }                                         
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-s=ans.getText();
-s=s+"4";
-        ans.setText(s);        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton2ActionPerformed
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        s=ans.getText();
+        s=s+"4";
+        ans.setText(s);
+    }                                        
 
-    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
-s=ans.getText();
-s=s+"5";
-        ans.setText(s);        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton6ActionPerformed
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        s=ans.getText();
+        s=s+"5";
+        ans.setText(s);
+    }                                        
 
-    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
-s=ans.getText();
-s=s+"6";
-        ans.setText(s);        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton10ActionPerformed
+    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {                                          
+        s=ans.getText();
+        s=s+"6";
+        ans.setText(s);
+    }                                         
 
-    private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
-s=ans.getText();
-s=s+"-";
-        ans.setText(s);        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton14ActionPerformed
+    private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {                                          
+        s=ans.getText();
+        s=s+"-";
+        ans.setText(s);
+    }                                         
 
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-s=ans.getText();
-s=s+"7";
-        ans.setText(s);        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton3ActionPerformed
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        s=ans.getText();
+        s=s+"7";
+        ans.setText(s);
+    }                                        
 
-    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
-s=ans.getText();
-s=s+"8";
-        ans.setText(s);        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton7ActionPerformed
+    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        s=ans.getText();
+        s=s+"8";
+        ans.setText(s);
+    }                                        
 
-    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
-s=ans.getText();
-s=s+"9";
-        ans.setText(s);        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton11ActionPerformed
+    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {                                          
+        s=ans.getText();
+        s=s+"9";
+        ans.setText(s);
+    }                                         
 
-    private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
-s=ans.getText();
-s=s+"*";
-        ans.setText(s);        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton15ActionPerformed
+    private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {                                          
+        s=ans.getText();
+        s=s+"*";
+        ans.setText(s);
+    }                                         
 
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {                                         
         s="";
-        ans.setText("");       // TODO add your handling code here:
-    }//GEN-LAST:event_jButton4ActionPerformed
+        ans.setText("");
+    }                                        
 
-    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
-       s=ans.getText();
+    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        s=ans.getText();
         s=s+"0";
-        ans.setText(s);  // TODO add your handling code here:
-    }//GEN-LAST:event_jButton8ActionPerformed
+        ans.setText(s);
+    }                                        
 
-    private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
+    private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {                                          
         s=ans.getText();
         s=s+"=";       
         s=Double.toString(evaluate(ans.getText()));
-        ans.setText(s);// TODO add your handling code here:
-    }//GEN-LAST:event_jButton12ActionPerformed
+        ans.setText(s);
+    }                                         
 
-    private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
+    private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {                                          
         s=ans.getText();
-s=s+"/";
-        ans.setText(s);  // TODO add your handling code here:
-        
-    }//GEN-LAST:event_jButton16ActionPerformed
+        s=s+"/";
+        ans.setText(s);
+    }                                         
 
-    private void ansKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_ansKeyTyped
-        // TODO add your handling code here:
-    }//GEN-LAST:event_ansKeyTyped
+    private void ansKeyTyped(java.awt.event.KeyEvent evt) {                             
+    }                            
 
-    private void ansActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ansActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_ansActionPerformed
+    private void ansActionPerformed(java.awt.event.ActionEvent evt) {                                    
+    }
+
     public static Double evaluate(String expression) {
-      char[] arr = expression.toCharArray();
-      String operand1 = "";String operand2 = "";String operator = "";
-      double result = 0;
+        char[] arr = expression.toCharArray();
+        String operand1 = "";
+        String operand2 = "";
+        String operator = "";
+        double result = 0;
 
-      for (int i = 0; i < arr.length; i++) {
-         if (arr[i] >= '0' && arr[i] <= '9' || arr[i] == '.') {
-            if(operator.isEmpty()){
-               operand1 += arr[i];
-            }else{
-               operand2 += arr[i];
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] >= '0' && arr[i] <= '9' || arr[i] == '.') {
+                if (operator.isEmpty()) {
+                    operand1 += arr[i];
+                } else {
+                    operand2 += arr[i];
+                }
             }
-         }  
 
-         if(arr[i] == '+' || arr[i] == '-' || arr[i] == '/' || arr[i] == '*') {
-            operator += arr[i];
-         }
-      }
+            if (arr[i] == '+' || arr[i] == '-' || arr[i] == '/' || arr[i] == '*') {
+                operator += arr[i];
+            }
+        }
 
-      if (operator.equals("+"))
-         result = (Double.parseDouble(operand1) + Double.parseDouble(operand2));
-      else if (operator.equals("-"))
-         result = (Double.parseDouble(operand1) - Double.parseDouble(operand2));
-      else if (operator.equals("/"))
-         result = (Double.parseDouble(operand1) / Double.parseDouble(operand2));
-      else
-         result = (Double.parseDouble(operand1) * Double.parseDouble(operand2));          
-      return result;
-   }    
+        if (operator.equals("+"))
+            result = (Double.parseDouble(operand1) + Double.parseDouble(operand2));
+        else if (operator.equals("-"))
+            result = (Double.parseDouble(operand1) - Double.parseDouble(operand2));
+        else if (operator.equals("/"))
+            result = (Double.parseDouble(operand1) / Double.parseDouble(operand2));
+        else
+            result = (Double.parseDouble(operand1) * Double.parseDouble(operand2));
+        return result;
+    }
+
     public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {
@@ -392,9 +386,7 @@ s=s+"/";
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(Calculator.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
-        //</editor-fold>
 
-        /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new Calculator().setVisible(true);
@@ -402,7 +394,7 @@ s=s+"/";
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+    // Variables declaration - do not modify                     
     private javax.swing.JTextField ans;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
@@ -422,5 +414,5 @@ s=s+"/";
     private javax.swing.JButton jButton9;
     private javax.swing.JColorChooser jColorChooser1;
     private javax.swing.JPanel jPanel1;
-    // End of variables declaration//GEN-END:variables
+    // End of variables declaration                   
 }
